@@ -1,0 +1,61 @@
+
+
+html {
+    overflow: hidden;
+    margin: 10%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #d5e1ef;
+    font-family: 'Gentium Book Plus', serif;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    text-align: center;
+    width: 240px;
+    height: max-content;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.improve{
+    font-weight: 700;
+    margin: 5px auto;
+    color: hsl(218, 44%, 22%);
+    width: 215px;
+    font-weight: 700;
+}
+
+.scan{
+    text-align: center;
+    margin: 2px auto;
+    font-weight: 400;
+    font-size: 15px;
+    width: 14em;
+    height: max-content;
+    color: hsl(220, 15%, 55%);
+}
+
+.qr{
+    margin: 10px 10px;
+    border-radius: 8px;
+    width: 220px;
+    height: 220px;
+}
+
+.attribution {
+    text-decoration: none; 
+    visibility: visible;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
